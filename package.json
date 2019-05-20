@@ -1,0 +1,30 @@
+{
+  "name": "annstudy",
+  "version": "1.0.0",
+  "description": "ultra tiny perceptron",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "ex1" : "npx babel-node 1.js",
+    "ex2" : "npx babel-node 2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ANN",
+    "AI",
+    "Perceptron",
+    "ML"
+  ],
+  "author": "gbox3d",
+  "license": "ISC"
+}
