@@ -44,7 +44,7 @@ tinyFlow.prototype = Object.assign(tinyFlow.prototype, {
         return _r >= 0 ? 1 : 0
     
     },
-    //훈현 함수 
+    //훈련 함수 
     train : function({ learning_rate, inputs, outputs }) {
 
         inputs.forEach((input, input_index ) => {
